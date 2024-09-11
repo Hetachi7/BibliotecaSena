@@ -10,16 +10,24 @@ use Illuminate\Notifications\Notifiable;
 class User extends Authenticatable
 {
     use HasFactory, Notifiable;
+   
+    const ROLE_ADMIN='adimn';
+    const ROLE_USER='user';
 
+    
+    protected $table= 'users';
     /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'email',
-        'password',
+        'codigo_barras',
+         'nombre',
+         'numeroId',
+          'centro',
+          'password',
+          'role'
     ];
 
     /**
@@ -43,5 +51,16 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public static function boot(){
+        parent::boot();
+
+        static::creating(Function($user){
+
+            $user->codigo_barras = $user->numeroId;
+            $user->password = $user->numeroId;
+
+        });
     }
 }

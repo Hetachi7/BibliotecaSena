@@ -62,13 +62,20 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => env('AUTH_MODEL', App\Models\User::class),
+            'model' => env( App\Models\User::class),
         ],
 
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
+        'passwords'=>[
+            'users'=>[
+                'provider'=> 'users',
+                'table'=> 'password_resets',
+                'expire'=> 60,
+            ],
+        ],
     ],
 
     /*
