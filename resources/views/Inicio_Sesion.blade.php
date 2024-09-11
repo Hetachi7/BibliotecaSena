@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +25,7 @@
     <title>Registro</title>
 </head>
 <body>
-
+  
     
     <!-- Contenido principal -->
  

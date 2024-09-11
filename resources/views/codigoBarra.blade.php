@@ -14,6 +14,15 @@
     </div>
 </head>
 <body>
+    <nav>
+        <a href="#">inicio </a>
+        <a href="#">Biblioteca Digital </a>
+        <a href="#">Colecciones</a>
+        <a href="#">Eventos </a>
+        <a href="#">quienes somos </a>
+      
+        <span></span>
+      </nav>
 
     <h1>Buscar estudiante</h1>
     
