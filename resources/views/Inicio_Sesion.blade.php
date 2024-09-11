@@ -41,11 +41,19 @@
                     </div>
                     <div class="row">
                         <label for="password"> contraseña</label>
-                        <input id="password" type="text" name="numeroId" required>
+                        <input id="password" type="password" name="password" required>
                     </div>
                     <button type="submit"> Ingresar  </button>
             </div>
-        
+            @if ($errors->any())
+             <div> 
+                <ul> 
+                    @foreach ($errors->all() as $error)
+                    <li>{{$error}}</li>
+                    @endforeach
+                </ul>
+             </div>
+            @endif
     </div>
     </body>
 </html>
