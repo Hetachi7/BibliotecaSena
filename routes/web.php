@@ -15,6 +15,6 @@ Route::get('buscar-estudiante',[ userController::class,'buscarCodigo'])->name('e
 Route::get('/listado', [userController::class,'listarEstudiantes'])->name('listar.estudiantes');
 Route::get('/lista_agro',[userController::class,'listaAgro'])->name('entradaAgro');
 Route::get('/listaCtpi',[userController::class,'listaCtpi'])->name('EntradaCtpi');
-Route::get('prueba1',[userController::class,'prueba'])->name('prueba1');
+Route::get('inicio',[userController::class,'ini'])->name('Inic');
 Route::get('login',[loginController::class,'Inicio'])->name('login');
 Route::post('login', [loginController::class,'login']);

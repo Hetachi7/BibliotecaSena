@@ -1,0 +1,519 @@
+PARTE I FUNDAMENTOS DEL ANÁLISIS DE SISTEMAS 1
+1 SISTEMAS, ROLES Y METODOLOGÍAS DE DESARROLLO 1
+Tipos de sistemas 2
+Sistemas de procesamiento de transacciones 2 / Sistemas de automatización de oficinas y sistemas
+de trabajo de conocimiento 2 / Sistemas de información administrativa 3 / Sistemas de soporte de
+decisiones 3 / Inteligencia artificial y sistemas expertos 3 / Sistemas de soporte de decisiones en grupo y
+sistemas de trabajo colaborativo asistido por computadora 3 / Sistemas de soporte para ejecutivos 4
+Integración de las tecnologías en sistemas 4
+Las aplicaciones de comercio electrónico y los sistemas Web 4 / Sistemas empresariales 5 / Sistemas para
+dispositivos inalámbricos y móviles 5 / Software de código fuente abierto 5
+Necesidad del análisis y diseño de sistemas 6
+Roles del analista de sistemas 6
+El analista de sistemas como consultor 6 / El analista de sistemas como experto de soporte 6 / El analista de
+sistemas como agente de cambio 7
+Oportunidad de consultoría 1.1 Contratación saludable: se solicita ayuda para el comercio electrónico 7
+Cualidades del analista de sistemas 8
+El ciclo de vida del desarrollo de sistemas 8
+Incorporación de las consideraciones de la interacción humano-computadora 9 / Identificación de los problemas,
+oportunidades y objetivos 9 / Determinación de los requerimientos de información del factor humano 10 /
+Análisis de las necesidades del sistema 10 / Diseño del sistema recomendado 11 / Desarrollo y documentación
+del software 11 / Prueba y mantenimiento del sistema 11 / Implementación y evaluación del sistema 11
+ATRACTIVO DE LA MAC 12
+El impacto del mantenimiento 12
+Uso de Herramientas Case 14
+La metodología ágil 14
+Proceso de desarrollo para un proyecto ágil 15
+Análisis y diseño de sistemas orientado a objetos 17
+Cómo elegir qué método de desarrollo de sistemas usar 19
+RESUMEN 19
+EXPERIENCIA DE HYPERCASE® 1 20
+PALABRAS CLAVE Y FRASES 21
+PREGUNTAS DE REPASO 21
+BIBLIOGRAFÍA SELECCIONADA 21
+EPISODIO 1 CASO DE LA CPU Se abre el caso 23
+ vii
+
+
+2 COMPRENSIÓN Y MODELADO DE LOS SISTEMAS ORGANIZACIONALES 24
+Las organizaciones como sistemas 24
+Capacidad de interrelación e interdependencia de los sistemas 25
+Oportunidad de consultoría 2.1 La E de la vitamina E significa E-commerce (comercio electrónico) 26
+Organizaciones y equipos virtuales 26 / Una perspectiva de sistemas 27 / Sistemas empresariales:
+considerar a la organización como un sistema 28
+Descripción gráfica de los sistemas 29
+Los sistemas y el diagrama de flujo de datos a nivel de contexto 29 / Los sistemas y el modelo
+de entidad-relación 30
+ATRACTIVO DE LA MAC 35
+Modelado de casos de uso 35
+Símbolos de los casos de uso 36 / Relaciones de los casos de uso 36 / Desarrollo del alcance
+del sistema 38 / Desarrollo de diagramas de casos de uso 38 / Desarrollo de escenarios de
+casos de uso 38 / Niveles de los casos de uso 39 / Creación de las descripciones de los casos
+de uso 43 / Por qué son útiles los diagramas de casos de uso 43
+Niveles de administración 43
+Oportunidad de consultoría 2.2 Donde hay carbón hay una copia 44
+Implicaciones para el desarrollo de sistemas de información 45
+Cultura organizacional 45
+Oportunidad de consultoría 2.3 El poder de la pirámide 46
+RESUMEN 46
+EXPERIENCIA DE HYPERCASE® 2 47
+PALABRAS CLAVE Y FRASES 48
+PREGUNTAS DE REPASO 48
+PROBLEMAS 48
+PROYECTOS EN GRUPO 49
+BIBLIOGRAFÍA SELECCIONADA50
+EPISODIO 2 CASO DE LA CPU Descripción gráfica de las relaciones 51
+3 ADMINISTRACIÓN DE PROYECTOS 56
+Iniciación del proyecto 56
+Problemas en la organización 57 / Definición del problema 57
+Oportunidad de consultoría 3.1 El sonido más dulce que haya sorbido 58
+Selección de proyectos 61
+Determinación de la viabilidad 62
+Determinar si es posible o no 62
+Determinación de las necesidades de hardware y software 63
+Hacer un inventario del hardware computacional 64 / Estimación de las cargas de trabajo 64 / Evaluación
+del hardware computacional 65 / Adquisición del equipo computacional 66 / Evaluación de software 68
+OPORTUNIDAD DE CONSULTORÍA 3.2 Veni, Vidi, Vendi (Vine, vi y vendí) 70
+Identificación, pronóstico y comparación de los costos y beneficios 72
+Pronósticos 72 / Identificación de los beneficios y costos 72
+Oportunidad de consultoría 3.3 Vamos a ver a los magos 73
+Comparación de los costos y beneficios 74
+Planeación y control de actividades 77
+Estimación del tiempo requerido 77
+viii CONTENIDO
+
+
+Oportunidad de consultoría 3.4 Alimento para el pensamiento 78
+Uso de gráficos de Gantt para programar proyectos 79 / Uso de diagramas PERT 80
+Administración del proyecto 82
+Cómo lidiar con la complejidad del sistema 82
+ATRACTIVO DE LA MAC 83
+Administración de las actividades de análisis y diseño 83
+Ensamblar un equipo 83
+EXPERIENCIA DE HYPERCASE® 3.1 84
+Estrategias de comunicación para administrar equipos 84 / Establecer objetivos de
+productividad del proyecto 85
+Oportunidad de consultoría 3.5 Cuidar los objetivos 85
+Motivación de los miembros del equipo del proyecto 86 / Administración de proyectos de comercio
+electrónico 86 / Creación de los estatutos del proyecto 87 / Cómo evitar fracasos en los proyectos 87
+La propuesta de sistemas 88
+Organización de la propuesta de sistemas 88 / Uso de figuras para una comunicación efectiva 89
+RESUMEN 91
+EXPERIENCIA DE HYPERCASE® 3.2 92
+PALABRAS CLAVE Y FRASES 93
+PREGUNTAS DE REPASO 93
+PROBLEMAS 94
+PROYECTOS EN GRUPO 98
+BIBLIOGRAFÍA SELECCIONADA 98
+EPISODIO 3 CASO DE LA CPU Llegar a conocerte 100
+PARTE II ANÁLISIS DE LOS REQUERIMIENTOS DE INFORMACIÓN 103
+4 RECOPILACIÓN DE INFORMACIÓN: MÉTODOS INTERACTIVOS 103
+Entrevistas 103
+Los cinco pasos para la preparación de una entrevista 104 / Tipos de preguntas 105
+Ordenar las preguntas en una secuencia lógica 107
+Oportunidad de consultoría 4.1 Fortalezca sus tipos de preguntas 108
+Cómo escribir el informe de la entrevista 109
+Oportunidad de consultoría 4.2 Un vistazo a la superficie 110
+Diseño de aplicación conjunta 111
+Condiciones que respaldan el uso de JAD 111 / ¿Quién está involucrado? 111
+EXPERIENCIA DE HYPERCASE® 4.1 112
+Ubicación de las reuniones JAD 112
+Oportunidad de consultoría 4.3 Analista de sistemas, supongo 113
+Obtención de un análisis estructurado de las actividades del proyecto 113 / Beneficios potenciales al usar
+JAD en vez de las entrevistas tradicionales 113 / Desventajas potenciales de JAD 113
+Uso de cuestionarios 114
+Planeación del uso de cuestionarios 114 / Escribir las preguntas 115 / Uso de escalas en los cuestionarios 118
+Diseño de los cuestionarios 119
+Oportunidad de consultoría 4.4 El cuestionario insoportable 120
+Oportunidad de consultoría 4.5 Orden en las cortes 121
+Administración de los cuestionarios 122
+RESUMEN 122
+
+
+EXPERIENCIA DE HYPERCASE® 4.2 123
+PALABRAS Y FRASES CLAVE 123
+PREGUNTAS DE REPASO 124
+PROBLEMAS 124
+PROYECTOS EN GRUPO 127
+BIBLIOGRAFÍA SELECCIONADA 127
+EPISODIO 4 CASO DE LA CPU Escucharé ahora, pregunto después 128
+5 RECOPILACIÓN DE INFORMACIÓN: MÉTODOS DISCRETOS 131
+Muestreo 131
+La necesidad del muestreo 132 / Diseño del muestreo 132 / La decisión sobre el tamaño de las muestras 134
+Oportunidad de consultoría 5.1 A la caza de una muestra 135
+Investigación 136
+Análisis de documentos cuantitativos 136
+Oportunidad de consultoría 5.2 Una rosa con otro nombre… o Calidad mejor que cantidad 137
+Análisis de los documentos cualitativos 140
+EXPERIENCIA DE HYPERCASE® 5.1 141
+Observación del comportamiento del encargado de tomar decisiones 142
+Observación de las actividades de toma de decisiones de un gerente común 142
+Observación del entorno físico 142
+Observación estructurada del entorno (STROBE) 142
+Oportunidad de consultoría 5.3 No confíes en su autoestima o no todo se refleja en un espejo 145
+Aplicación del método STROBE 146
+ATRACTIVO DE LA MAC 147
+RESUMEN 148
+EXPERIENCIA DE HYPERCASE® 5.2 149
+PALABRAS CLAVE Y FRASES 150
+PREGUNTAS DE REPASO 150
+PROBLEMAS 150
+PROYECTOS EN GRUPO 152
+BIBLIOGRAFÍA SELECCIONADA 153
+EPISODIO 5 CASO DE LA CPU Ver es creer 154
+6 MODELADO ÁGIL Y PROTOTIPOS 155
+Prototipos 156
+Tipos de prototipos 156 / Uso de prototipos como alternativa para el SDLC 157
+Desarrollo de un prototipo 158
+Lineamientos para desarrollar un prototipo 159
+Oportunidad de consultoría 6.1 Los prototipos, ¿son los reyes? 159
+Oportunidad de consultoría 6.2 Despejando el camino para los vínculos con los clientes 160
+Desventajas de los prototipos 160 / Ventajas de los prototipos 161 / Creación de prototipos mediante
+software COTS 161
+Oportunidad de consultoría 6.3 Incubar un pez 161
+Oportunidad de consultoría 6.4 Este prototipo está todo mojado 162
+El papel que desempeñan los usuarios en los prototipos 162
+
+
+Desarrollo rápido de aplicaciones 163
+Fases de RAD 164 / Comparación entre RAD y el SDLC 165
+Modelado ágil 166
+Valores y principios del modelado ágil 166 / Actividades, recursos y prácticas del modelado ágil 168 / El
+proceso de desarrollo ágil 171
+ATRACTIVO DE LA MAC 173
+Lecciones aprendidas a partir del modelado ágil 175
+Comparación entre el modelado ágil y los métodos estructurados 176
+Mejorar la eficiencia en el trabajo del conocimiento: comparación entre SDLC y el método ágil 177 /
+Riesgos inherentes a la innovación organizacional 179
+RESUMEN 181
+EXPERIENCIA DE HYPERCASE ® 6 182
+PALABRAS CLAVE Y FRASES 183
+PREGUNTAS DE REPASO 183
+PROBLEMAS 183
+PROYECTOS EN GRUPO 185
+BIBLIOGRAFÍA SELECCIONADA 185
+EPISODIO 6 CASO DE LA CPU Tiempo de reacción 186
+PARTE III EL PROCESO DE ANÁLISIS 193
+7 USO DE DIAGRAMAS DE FLUJO DE DATOS 193
+La metodología del flujo de datos para determinar los requerimientos humanos 193
+Ventajas de la metodología del flujo de datos 193 / Convenciones usadas en los diagramas
+de flujo de datos 194
+Cómo desarrollar diagramas de flujos de datos 195
+Creación del diagrama de contexto 195 / Dibujo del Diagrama 0 (el siguiente nivel) 196 / Creación de
+diagramas hijos (niveles más detallados) 198 / Comprobación de errores en los diagramas 198
+Diagramas de flujo de datos lógicos y físicos 200
+Cómo desarrollar diagramas de flujo de datos lógicos 202 / Cómo desarrollar diagramas de flujo de datos
+físicos 203 / Cómo particionar los diagramas de flujo de datos 206
+Ejemplo de un diagrama de flujo de datos 207
+Desarrollar la lista de actividades de negocios 207 / Crear un diagrama de flujo de datos a nivel de
+contexto 208 / Dibujo del Diagrama 0 210 / Crear un diagrama hijo 211 / Crear un diagrama de flujo de
+datos físico a partir del DFD lógico 212 / Cómo particionar el DFD físico 213
+Particionamiento de sitios web 213
+OPORTUNIDAD DE CONSULTORÍA 7.1 No hay negocio como el negocio de los flujos 216
+Comunicación mediante el uso de diagramas de flujo de datos 217
+RESUMEN 217
+EXPERIENCIA DE HYPERCASE® 7 218
+PALABRAS CLAVE Y FRASES 218
+PREGUNTAS DE REPASO 219
+PROBLEMAS 219
+PROYECTOS EN GRUPO 221
+BIBLIOGRAFÍA SELECCIONADA 221
+EPISODIO 7 CASO DE LA CPU Siguiendo el flujo 222
+
+
+8 ANÁLISIS DE SISTEMAS MEDIANTE EL USO DE DICCIONARIOS DE DATOS 228
+El diccionario de datos 228
+Necesidad de comprender el diccionario de datos 229
+El repositorio de datos 229
+Definición de los flujos de datos 230 / Descripción de las estructuras de datos 231 / Estructuras de datos
+lógicas y físicas 233 / Elementos de datos 234 / Almacenes de datos 236
+Creación del diccionario de datos 238
+Análisis de la entrada y la salida 239
+Oportunidad de consultoría 8.1 ¿Deseas triunfar en el teatro? ¡Mejora tu dicción(ario)! 240
+Desarrollo de almacenes de datos 241
+Uso del diccionario de datos 242
+Uso de diccionarios de datos para crear XML 243 / Definiciones de tipo de documento de XML 244 /
+Esquemas de XML 246
+EXPERIENCIA DE HYPERCASE® 8 247
+RESUMEN 248
+PALABRAS CLAVE Y FRASES 248
+PREGUNTAS DE REPASO 248
+PROBLEMAS 249
+PROYECTOS EN GRUPO 251
+BIBLIOGRAFÍA SELECCIONADA 251
+EPISODIO 8 Caso de la CPU Definir lo que queremos decir 252
+9 ESPECIFICACIONES DE LOS PROCESOS Y DECISIONES ESTRUCTURADAS 259
+Generalidades de las especificaciones de los procesos 259
+Formato de especificación de proceso 260
+Español estructurado 261
+Cómo escribir español estructurado 261
+Oportunidad de consultoría 9.1 Kit Chen Kaboodle, Inc. 263
+Oportunidad de consultoría 9.2 Estructura para amasar 264
+Diccionario de datos y especificaciones de procesos 265
+Tablas de decisión 266
+Desarrollar tablas de decisión 267
+Oportunidad de consultoría 9.3 Ahorrar un centavo en Citron Car Rental 269
+Verificar la integridad y precisión 270
+Árboles de decisión 271
+Oportunidad de consultoría 9.4 Un árbol gratis 272
+Dibujar árboles de decisión 272
+Cómo elegir una técnica de análisis de decisiones estructuradas 273
+RESUMEN 273
+EXPERIENCIA DE HYPERCASE® 9 274
+PALABRAS CLAVE Y FRASES 274
+PREGUNTAS DE REPASO 274
+PROBLEMAS 274
+PROYECTOS EN GRUPO 276
+BIBLIOGRAFÍA SELECCIONADA 276
+EPISODIO 9 CASO DE LA CPU Presentar una decisión 277
+
+
+10 ANÁLISIS Y DISEÑO DE SISTEMAS ORIENTADOS A OBJETOS MEDIANTE EL USO DE UML 281
+Conceptos orientados a objetos 282
+Objetos 282 / Clases 282 / Herencia 283
+Oportunidad de consultoría 10.1 Alrededor del mundo en 80 objetos 284
+Tarjetas CRC y pensamiento en objetos 284
+Interacción durante una sesión CRC 284
+Conceptos y diagramas del lenguaje unificado de modelado (UML) 286
+Modelado de casos de uso 287
+Diagramas de actividad 290
+Creación de diagramas de actividad 292
+Oportunidad de consultoría 10.2 Reciclando el entorno de programación 293
+Entradas en el repositorio para un diagrama de actividad 294
+Diagramas de secuencia y de comunicación 294
+Diagramas de secuencia 294 / Diagramas de comunicación 296
+Diagramas de clases 297
+Sobrecarga de métodos 298 / Tipos de clases 299 / Definición de mensajes y métodos 300
+Cómo mejorar los diagramas de secuencia 300
+Un ejemplo de clase para Web 300 / Las capas de presentación, negocios y persistencia
+en los diagramas de secuencia 302
+Cómo mejorar los diagramas de clases 303
+Relaciones 304 / Diagramas de generalización/especialización (gen/spec) 306
+Diagramas de estados 309
+Ejemplo de una transición de estado 310
+Paquetes y otros artefactos de UML 311
+Oportunidad de consultoría 10.3 Desarrollo de un sistema fino cuyo plazo de entrega se venció hace
+mucho: uso del análisis orientado a objetos para el Sistema de la biblioteca pública Ruminski 313
+Ponga el UML a trabajar 313
+Oportunidad de consultoría 10.4 C-Shore 315
+La importancia de usar UML para el modelado 315
+RESUMEN 316
+EXPERIENCIA DE HYPERCASE® 10 317
+PALABRAS CLAVE Y FRASES 317
+PREGUNTAS DE REPASO 318
+PROBLEMAS 318
+BIBLIOGRAFÍA SELECCIONADA 319
+EPISODIO 10 CASO DE LA CPU Objetos con clase 320
+PARTE IV LOS FUNDAMENTOS DEL DISEÑO 329
+11 DISEÑO DE UNA SALIDA EFECTIVA 329
+Objetivos de diseño de la salida 329
+Diseñar la salida para servir al propósito previsto 329 / Diseñar la salida para ajustarla
+al usuario 330 / Entregar la cantidad apropiada de salida 330 / Asegurarse que la salida
+esté donde se necesite 330 / Proveer la salida en forma oportuna 330 / Elegir el método
+de salida correcto 330
+
+
+Relacionar el contenido de la salida con el método de salida 330
+Tecnologías de salida 331
+Oportunidad de consultoría 11.1 ¿Tu jaula o la mía? 335
+Factores a considerar al elegir la tecnología de salida 336
+Oportunidad de consultoría 11.2 Una vía correcta, una equivocada y una vía de metro 339
+Comprender cómo afecta la predisposición en la salida a los usuarios 340
+Cómo reconocer la predisposición en la forma en que se utiliza la salida 340 / Cómo evitar la predisposición
+al diseñar la salida 341 / Cómo diseñar la salida impresa 341 / Lineamientos para el diseño de informes
+impresos 341
+Oportunidad de consultoría 11.3 ¿Debería prohibirse esta gráfica? 342
+Cómo diseñar salida para pantallas 344
+Lineamientos para el diseño de pantallas 344 / Uso de salida gráfica en el diseño de pantallas 345 /
+Tableros de control 346 / Widgets y gadgets: modificación de la metáfora del escritorio 347
+Oportunidad de consultoría 11.4 ¿Es tu trabajo aburrido? 348
+Diseño de un sitio web 348
+Lineamientos generales para diseñar sitios Web 349 / Mantenimiento de los sitios Web 356 / Creación de
+blogs (Weblogs) 357
+ATRACTIVO DE LA MAC 351
+Oportunidad de consultoría 11.5 Un día en el campo 356
+Producción de la salida y XML 357
+Ajax 358
+EXPERIENCIA DE HYPERCASE® 11 360
+RESUMEN 360
+PALABRAS CLAVE Y FRASES 361
+PREGUNTAS DE REPASO 361
+PROBLEMAS 362
+PROYECTOS EN GRUPO 365
+BIBLIOGRAFÍA SELECCIONADA 365
+EPISODIO 11 CASO DE LA CPU Elaborar informes con base en las salidas 366
+12 DISEÑO DE UNA ENTRADA EFECTIVA 371
+Diseño de buenos formularios 371
+Hacer que los formularios sean fáciles de llenar 372 / Cumplir con el propósito previsto 374 / Asegurar que
+se llenen en forma precisa 375 / Mantener los formularios atractivos 375 / Cómo controlar los formularios
+de las empresas 376
+Diseño de buenos formularios web y de pantalla 376
+Mantener la pantalla simple 376
+Oportunidad de consultoría 12.1 Este formulario puede ser dañino para su salud 377
+Mantener la pantalla consistente 378 / Facilitar el movimiento 378 / Diseñar una pantalla atractiva y
+agradable 378 / Utilice iconos en el diseño de las pantallas 378 / Diseño de la interfaz gráfica de usuario 379
+Oportunidad de consultoría 12.2 Tener todo junto no siempre es lo mejor 379
+Controles y valores de los formularios 381 / Campos ocultos 382 / Tablas de respuesta
+a eventos 382 / Páginas Web dinámicas 383 / Páginas Web tridimensionales 385 / Ajax (JavaScript
+asíncrono y XML) 387 / Uso de color en el diseño de pantallas 389
+Diseño de páginas de Intranet e Internet 389
+Oportunidad de consultoría 12.3 Juego de máscaras 390
+ATRACTIVO DE LA MAC 392
+
+
+RESUMEN 392
+EXPERIENCIA DE HYPERCASE® 12 393
+PALABRAS CLAVE Y FRASES 394
+PREGUNTAS DE REPASO 394
+PROBLEMAS 395
+PROYECTOS EN GRUPO 397
+BIBLIOGRAFÍA SELECCIONADA 398
+EPISODIO 12 CASO DE LA CPU Formando pantallas y visualizando formularios 399
+13 DISEÑO DE BASES DE DATOS 403
+Bases de datos 403
+Oportunidad de consultoría 13.1 Enganche su carrito de limpieza a una estrella 404
+Conceptos de datos 404
+Realidad, datos y metadatos 405 / Archivos 410 / Bases de datos relacionales 411
+Normalización 413
+Los tres pasos de la normalización 413 / Un ejemplo de normalización 414 / Uso del diagrama
+entidad-relación para determinar las claves de los registros 421 / Relación de uno a muchos 422 /
+Relación de muchos a muchos 423
+Lineamientos para el diseño de relaciones de archivos maestros/bases de datos 424
+Restricciones de integridad 424
+ATRACTIVO DE LA MAC 425
+Anomalías 425
+Uso de la base de datos 426
+Pasos para recuperar y presentar los datos 426
+Desnormalización 426
+Almacenes corporativos de datos 429
+Procesamiento analítico en línea 429 / Minería de datos 430
+Oportunidad de consultoría 13.2 Almacenamiento de minerales para la salud, minería de datos 430
+Oportunidad de consultoría 13.3 Pérdida de prospectos 431
+RESUMEN 432
+EXPERIENCIA DE HYPERCASE® 13 433
+PALABRAS CLAVE Y FRASES 433
+PREGUNTAS DE REPASO 434
+PROBLEMAS 434
+PROYECTO EN GRUPO 436
+BIBLIOGRAFÍA SELECCIONADA 436
+EPISODIO 13 CASO DE LA CPU De vuelta a los fundamentos de datos 437
+14 INTERACCIÓN HUMANO-COMPUTADORA 441
+Comprensión de la interacción humano-computadora 441
+Cómo el ajuste afecta al desempeño y al bienestar 442 / El modelo de aceptación de la tecnología
+y su relación con la actitud 443
+Usabilidad 444
+Diseño para los estilos cognoscitivos de usuarios individuales 444 / Consideraciones físicas en el diseño de
+la HCI 448 / Consideración de las limitaciones, discapacidades y diseño de los humanos 449
+Oportunidad de consultoría 14.1 El espíritu escolar viene en varias tallas 450
+Implementación de las buenas prácticas de la HCI 450
+
+
+Tipos de interfaz de usuario 451
+Interfaces de lenguaje natural 451 / Interfaces de preguntas y respuestas 452 / Menús 453
+Oportunidad de consultoría 14.2 Preferiría hacerlo yo mismo 454
+Interfaces de llenado de formularios (formularios de entrada/salida) 454 / Interfaces de lenguaje de
+comandos 455
+Oportunidad de consultoría 14.3 No me desaceleren 456
+Interfaces gráficas de usuario 456 / Otras interfaces de usuario 457
+Oportunidad de consultoría 14.4 Ésa no es una bombilla 457
+Lineamientos para el diseño del diálogo 458
+Comunicación significativa 459 / Mínima acción por parte del usuario 459 / Operación y consistencia
+estándar 461
+Oportunidad de consultoría 14.5 En espera de ser alimentado 461
+Retroalimentación para los usuarios 461
+Tipos de retroalimentación 462 / Incluir retroalimentación en el diseño 464
+Consideraciones de diseño especiales para el comercio electrónico 465
+Solicitar retroalimentación de los clientes del sitio Web de comercio electrónico 465 / Fácil navegación para
+los sitios Web de comercio electrónico 465
+Oportunidad de consultoría 14.6 Al correr en un maratón, es conveniente saber hacia
+dónde se dirige 466
+ATRACTIVO DE LA MAC 467
+Aplicaciones web híbridas (MASHUPS) 468
+Diseño de consultas 468
+Tipos de consultas 469 / Métodos de consulta 471
+Oportunidad de consultoría 14.7 ¡Eh, mírame! (Repetición) 472
+RESUMEN 474
+PALABRAS CLAVE Y FRASES 474
+EXPERIENCIA DE HYPERCASE® 14 475
+PREGUNTAS DE REPASO 476
+PROBLEMAS 476
+PROYECTOS EN GRUPO 477
+BIBLIOGRAFÍA SELECCIONADA 478
+EPISODIO 14 Caso de la CPU Depende de los usuarios 479
+PARTE V ASEGURAMIENTO E IMPLEMENTACIÓN DE LA CALIDAD 485
+15 DISEÑO DE PROCEDIMIENTOS PRECISOS DE ENTRADA DE DATOS 485
+Codificación efectiva 485
+Mantener el registro de algo 486 / Clasificar la información 487 / Ocultar información 488 / Revelar
+información 489 / Unicode 490 / Solicitar la acción apropiada 491 / Lineamientos generales para la
+codificación 491
+Oportunidad de consultoría 15.1 Aquí parece una jungla 492
+Oportunidad de consultoría 15.2 Pescar un código de verano 494
+Captura de datos efectiva y eficiente 494
+Qué capturar 494 / Dejar que la computadora haga el resto 495 / Cómo evitar cuellos de botella y pasos
+adicionales 496 / Empezar con un buen formulario 496 / Elegir un método de entrada de datos 496
+
+
+Oportunidad de consultoría 15.3 Entrar o no entrar: esa es la cuestión 499
+Asegurar la calidad de los datos por medio de la validación de la entrada 499
+Validar las transacciones de entrada 500 / Validar los datos de entrada 500
+Oportunidad de consultoría 15.4 ¿Validan el estacionamiento? 504
+El proceso de validación 505
+Ventajas de la precisión en los entornos de comercio electrónico 506
+Los clientes teclean sus propios datos 506 / Almacenar datos para su uso posterior 506 / Utilizar datos por
+medio del proceso de cumplimiento de pedidos 506 / Proveer retroalimentación a los clientes 506
+EXPERIENCIA DE HYPERCASE® 15 507
+RESUMEN 507
+PALABRAS CLAVE Y FRASES 508
+PREGUNTAS DE REPASO 508
+PROBLEMAS 509
+PROYECTOS EN GRUPO 511
+BIBLIOGRAFÍA SELECCIONADA 511
+EPISODIO 15 Caso de la CPU Introducir en forma natural 512
+16 ASEGURAMIENTO E IMPLEMENTACIÓN DE LA CALIDAD 515
+La metodología de administración de la calidad total 516
+Seis Sigma 516 / Responsabilidad de la administración de la calidad total 516 / Recorrido estructurado 517
+Oportunidad de consultoría 16.1 La calidad de MIS no se pone a prueba 518
+Diseño y desarrollo de sistemas descendente 518
+ATRACTIVO DE LA MAC 520
+Uso de diagramas de estructura para diseñar sistemas modulares 520 / Arquitectura orientada a servicios
+(SOA) 522
+Metodologías de documentación 523
+Manuales de procedimientos 523 / El método FOLKLORE 523
+Oportunidad de consultoría 16.2 Escribir está bien 524
+EXPERIENCIA DE HYPERCASE® 16.1 525
+Elección de una técnica de diseño y documentación 526
+Prueba, mantenimiento y auditoría 526
+El proceso de prueba 526
+Oportunidad de consultoría 16.3 Estudiando de manera intensiva para su prueba de sistemas 528
+Prácticas de mantenimiento 528 / Auditoría 529
+Implementación de sistemas distribuidos 529
+Tecnología cliente-servidor 529 / Computación en nube 531 / Modelado de red 533
+Capacitación de usuarios 536
+Estrategias de capacitación 537 / Lineamientos para la capacitación 537
+Oportunidad de consultoría 16.4 Puede guiar un pez al agua... pero no puede hacer
+que la tome 538
+Conversión a un nuevo sistema 539
+Estrategias de conversión 539 / Otras consideraciones de conversión 540 / Metáforas organizacionales y su
+relación con los sistemas exitosos 541
+Aspectos de seguridad para los sistemas tradicionales y los basados en web 542
+Seguridad física 542 / Seguridad lógica 542 / Seguridad conductual 543 / Consideraciones especiales de
+seguridad para el comercio electrónico 543 / Consideraciones de privacidad para el comercio
+electrónico 544 / Planeación de recuperación de desastres 544
+CONTENIDO xvii
+ www.xlibros.com
+Oportunidad de consultoría 16.5 El dulce aroma del éxito 546
+Evaluación 546
+Técnicas de evaluación 546 / El enfoque de utilidad del sistema de información 546
+Oportunidad de consultoría 16.6 Limpiando el nuevo sistema 548
+Evaluación de sitios web corporativos 548
+RESUMEN 550
+EXPERIENCIA DE HYPERCASE® 16.2 551
+PALABRAS CLAVE Y FRASES 551
+PREGUNTAS DE REPASO 551
+PROBLEMAS 552
+PROYECTOS EN GRUPO 554
+BIBLIOGRAFÍA SELECCIONADA 554
+EPISODIO 16 CASO DE LA CPU Semper Redundate 555
+ GLOSARIO 557
+ ACRÓNIMOS 565
+ÍNDICE 566

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <div class="container-fluid">
+        <div class="row">
+                <img src={{asset('Img/logo-ministerio-del-trabajo.jpg')}} style="width: 300px; align-items: start; margin-right: 400px;">
+                <img src={{asset('Img/Logo_Biblio.png')}} style="width: 300px; margin-left: 500px; align-items: end;">
+          </div>
+      </div>
 </head>
 <body>
     

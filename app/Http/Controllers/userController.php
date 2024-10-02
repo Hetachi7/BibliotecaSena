@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 class userController extends Controller
 {
 
-    public function Prueba(){
-        return view('index');
+    public function Ini(){
+        return view('inicio');
     }
     public function buscarForm(){
         return view('codigoBarra');

@@ -1,0 +1,98 @@
+nav{
+    position: relative; 
+    width: auto;
+    height: 50px;
+    background:#ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ nav a{
+     position: relative;
+     display: inline-block;
+     font-size: 1em;
+     font-weight: 1000;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     padding: 0 23px;
+     z-index: 1;
+ }
+ nav span{
+     position: absolute;
+     top: 0;
+     left: 410px;
+     width: 110px;
+     height: 100%;
+     background:linear-gradient(45deg, #0fa046,#094e1a );
+     border-radius: 8px;
+ }
+ .nav a:nth-child(1):hover~span{            
+     left: 400px;
+ }
+ 
+ nav a:nth-child(2):hover~span{
+    left: 520px;
+    width: 160px;
+ }
+ 
+ nav a:nth-child(3):hover~span{
+     left: 700px;
+     width: 120px;
+ }
+ nav a:nth-child(4):hover~span{
+     left: 830px;
+     width: 100px;
+ }
+ nav a:nth-child(5):hover~span{
+     left: 950px;
+     width: 130px;
+ }
+ 
+.content-all{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    perspective: 1000px;
+}
+.content-carrousel{
+    width: 100%;
+    height: 150px;
+    position:relative;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+    
+}
+.content-carrousel:hover{
+    animation-play-state: paused;
+}
+
+.content-carrousel figure{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+.content-carrousel figure:nth-child(1){ transform: rotateY(90deg) translateZ(200px);}
+.content-carrousel figure:nth-child(2){ transform: rotateY(180deg) translateZ(200px);}
+.content-carrousel figure:nth-child(3){ transform: rotateY(270deg) translateZ(200px);}
+.content-carrousel figure:nth-child(4){ transform: rotateY(360deg) translateZ(200px);}
+
+
+
+.content-carrousel img{
+    width: 400px;
+}
+.content-carrousel img:hover{
+    transform: scale(1.2);
+}
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    } to{
+        transform: rotateY(360deg);
+    }
+}
